@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ua-archive"
+version = "0.1.0"
+description = ""
+authors = ["Krzysztof Olszewski <hello@retryjoin.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+google-api-python-client = "^2.135.0"
+oauth2client = "^4.1.3"
+pyyaml = "^6.0.1"
+argparse = "^1.4.0"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
